@@ -4,6 +4,9 @@ tunnels:
   torrent:
     addr: 9091
     proto: tcp
+  vcode:
+    addr: 8080
+    proto: tcp
   web:
     addr: 80
     proto: http
