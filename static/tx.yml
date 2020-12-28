@@ -1,4 +1,5 @@
 authtoken: RPLXXXXXX
+region: eu
 tunnels:
   torrent:
     addr: 9091
