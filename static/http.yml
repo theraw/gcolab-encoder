@@ -1,6 +1,0 @@
-tunnels:
-  http80:
-    proto: http
-    addr: 80
-    inspect: false
-    bind_tls: true
