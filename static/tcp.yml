@@ -1,4 +1,4 @@
 tunnels:
-  trx:
+  tcp:
     proto: tcp
     addr: 9091
