@@ -1,0 +1,4 @@
+tunnels:
+  ssh:
+    proto: tcp
+    addr: 9091
