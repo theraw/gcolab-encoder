@@ -1,0 +1,8 @@
+authtoken: RPLXXXXXX
+tunnels:
+  torrent:
+    addr: 9091
+    proto: tcp
+  web:
+    addr: 80
+    proto: http
