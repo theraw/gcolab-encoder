@@ -6,7 +6,7 @@ tunnels:
     proto: tcp
   vcode:
     addr: 8090
-    proto: http
+    proto: tcp
   web:
     addr: 80
     proto: http
