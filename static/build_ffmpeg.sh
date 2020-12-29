@@ -6,6 +6,7 @@ sudo apt-get update -qq && sudo apt-get -y install \
   autoconf \
   automake \
   build-essential \
+  libfdk-aac-dev \
   cmake \
   git-core \
   libass-dev \
