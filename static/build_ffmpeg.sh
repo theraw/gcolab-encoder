@@ -1,10 +1,5 @@
-sudo apt install nvidia-cuda-toolkit -y
-apt-get install yasm -y
-apt-get install nasm -y
-cd ~/; git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
-cd ~/nv-codec-headers && sudo make install && cd ~/
-git clone https://git.ffmpeg.org/ffmpeg.git
-cd ~/ffmpeg
+#!/bin/bash
+#sudo apt install nvidia-cuda-toolkit -y
 sudo apt install -y pkg-config libass-dev
 sudo apt-get install libopus-dev libmp3lame-dev libvpx-dev libx265-dev libnuma-dev libx264-dev nasm -y
 sudo apt-get update -qq && sudo apt-get -y install \
@@ -29,6 +24,10 @@ sudo apt-get update -qq && sudo apt-get -y install \
   wget \
   yasm \
   zlib1g-dev
+cd ~/; git clone https://git.videolan.org/git/ffmpeg/nv-codec-headers.git
+cd ~/nv-codec-headers && sudo make install && cd ~/
+git clone https://git.ffmpeg.org/ffmpeg.git
+cd ~/ffmpeg
 PKG_CONFIG_PATH="/usr/local/lib/pkgconfig" ./configure \
 --enable-cuda-nvcc \
 --enable-cuvid \
