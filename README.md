@@ -4,7 +4,7 @@
 2. At step 4 replace the text `REQUIRED NGROK KEY HERE` with your ngrok key.
 3. Click **Runtime** > **Run All**
 4. Ready to go, navigate to your ngrok dashboard > tunnels, open the created urls,
-- one of urls is `Transmission dashboard` where you can download torrenting.. `/movies/downloading`
+- one of urls is `Transmission dashboard` where you can download torrenting.. `/movies/downloading` (username: `admin` password: `admin`)
 - other url is `visual studio code` so you can have a dev ide just in case needed.
 - other url is `nginx` running with public folder `/movies/public_html`
 
