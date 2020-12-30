@@ -10,3 +10,4 @@
 
 
 FFmpeg will also compile with GPU support, however this project **failed** as of for now till google decides to update nvidia drivers because ffmpeg requires nvidia driver **v455** while google uses old version **418**, and you cannot change nvidia driver version since you're inside a Docker Container and its not a real server.
+with other wors **`FFmpeg GPU acceleration not working due to outdated nvidia driver version`**
